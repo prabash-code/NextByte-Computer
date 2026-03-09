@@ -8,6 +8,7 @@ class Product(Base):
     brand = Column(String)
     category = Column(String)
     price = Column(Float)
+    stock = Column(Integer)
     specs = Column(JSON)
     socket = Column(String,nullable=True)
     chipset =Column(String,nullable=True)
